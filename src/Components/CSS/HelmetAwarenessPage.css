@@ -1,0 +1,56 @@
+/* Container for the whole page */
+.helmet-awareness-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Styling for the headings */
+.heading {
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Container for the content */
+.awareness-content {
+    margin-top: 20px;
+}
+
+/* Styling for subheadings */
+h2 {
+    color: #555;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Styling for paragraphs */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Container for images */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Styling for images */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

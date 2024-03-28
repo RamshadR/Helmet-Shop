@@ -1,0 +1,181 @@
+.shoppingbag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.container2 {
+  flex: 1;
+}
+
+.wrapper2 {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+.wrapper-img img {
+  width: 100%;
+  height: 180px;
+  /* object-fit: cover; */
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity h4 {
+  margin-right: 20px;
+  color: #333;
+}
+
+.quantity button {
+  background-color: #333;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.quantity button:hover {
+  background-color: #555;
+}
+
+.quantity span {
+  margin: 0 10px;
+}
+
+.removBtn {
+  margin-top: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  margin-left: 20px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartinfo h2 {
+  color: #333;
+}
+
+.cartitems {
+  margin-top: 20px;
+}
+
+.cartitems ol {
+  margin-left: 10px;
+}
+
+.cartitems li {
+  margin-bottom: 10px;
+}
+
+.totalprice {
+  margin-top: 20px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.totalprice h1 {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.totalprice button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.totalprice button:hover {
+  background-color: #555;
+}
+.ordersumm{
+  padding: 10px;
+  background-color: #ff0000;
+  margin:0px;
+}
+
+
+
+.sidebar {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.cartinfo {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cartitems {
+  margin-top: 20px;
+}
+
+.cartitems ol {
+  list-style: none;
+  padding: 0;
+}
+
+.cartitems table {
+  width: 100%;
+}
+
+.cartitems td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.totalprice {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.totalprice h1 {
+  color: #333;
+}
+
+.totalprice button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.totalprice button:hover {
+  background-color: #cc3700;
+}

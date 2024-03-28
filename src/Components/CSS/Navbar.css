@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Poppins&display=swap');
+
+
+* {
+    font-family: 'Alice', serif;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0 10px;
+    background-color: rgb(61, 61, 61);
+}
+
+.links{
+    flex: 1;
+}
+
+.nav-end {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex: 1; 
+}
+
+
+
+.logo {
+    font-size: 50px;
+    flex: 1;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-end a,
+.links a ,.search{
+    margin-right: 25px;
+    text-decoration: blink;
+    color: rgb(255, 255, 255);
+}
+
+.links a:hover,.nav-end a:hover{
+    text-decoration:  underline;
+}
+
+
+
+.cart img,.wishlist img{
+    width: 25px;
+    height: 25px;
+}
+
+.signin img{
+    width: 20px;
+    height: 20px;
+}
+
+.searchbox{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ccc7c7a8;
+    outline: none;
+    border: 1px solid gray;
+    position: relative;
+    padding: 10px;
+}
+
+
+.search{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+.search img{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    display: flex;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.searchbox::placeholder{
+    padding-left: 1px;
+}
+
+.logout{
+
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout img{
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+}
+
+.loginaccount img{
+    width: 30px;
+    height: 30px;
+}
+
+/* scroll */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Alice', serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    z-index: 1; /* Ensure dropdown is above other content */
+  }
+  
+  .dropdown-toggle {
+    border: 1px solid  rgb(61, 61, 61);
+    /* padding: 10px; */
+    background-color: rgb(61, 61, 61);
+    font-family: 'Alice', serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+   
+    background-color:  rgba(71, 69, 69, 0.795);
+    border: 1px solid #000000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2; /* Ensure dropdown menu is above other content */
+  }
+  
+  .dropdown-menu a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 0;
+  }
+  
+  .arrow {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg);
+  }
+.adminpropic{
+    width: 35px;
+    height: 35px; 
+    border-radius: 50%; 
+    /* margin-left: 10px; */
+    /* margin-top: 10px; */
+        
+}  

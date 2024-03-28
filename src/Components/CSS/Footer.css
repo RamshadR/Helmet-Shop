@@ -1,0 +1,64 @@
+.footer{
+    border-top: 1px solid gray;
+    margin-top: 70px;
+    background-color: rgba(255, 255, 0, 0.877);
+
+}
+
+
+
+
+.foot2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.shop{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+}
+
+.shop h3{
+    font-size: 20px;
+}
+
+.shop a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.btn--primary{
+  width: 100px;
+  height: 60px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 1053px;
+
+
+}
+.foot3{
+    margin-top: 30px;
+    background-color: rgb(35, 35, 35);
+    text-decoration: none;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.socialicon{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
